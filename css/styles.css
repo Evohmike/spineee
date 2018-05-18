@@ -1,0 +1,391 @@
+body{
+  font-family: Arial;
+  overflow-x: hidden;
+  color: #5a5a5a;
+  font-family: 'Open Sans',Arial,sans-serif;
+  font-size: 15px;
+}
+@media (min-width: 992px) {
+  .one{
+    background-color: none;
+
+    font-size: 50px;
+    color: grey;
+    padding-left: 70px;
+    font-family: sans-serif;
+    font-family: 'Oleo Script';
+    font-size: 50px;
+
+  }
+
+event-img img {
+    width:100%;
+    height: 380px;
+
+  }
+  .overlay{
+    position: absolute;
+  }
+  .inline-block {
+    display: inline-block;
+    margin-left: 0px;
+  }
+  .pics {
+    width:250px;
+    height:200px;
+    display: inline-block;
+    margin-left: 0px;
+    text-align: center;
+    color: grey;
+    font-size: 11px;
+    padding-left: 90px;
+  }
+  h2 {
+    font-size: 20px;
+    color: grey;
+
+  }
+  h3 {
+    color: black;
+    font-size: 15px;
+  }
+
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+
+  .text {
+    color: grey;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .row2 {
+    margin-left: 50px;
+  }
+
+}
+.navbar-nav > li{
+  width: 170px;
+  height: 90px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+}
+.nav-menu  >.logo{
+  margin-top: 100px;
+}
+.logo {
+  height: 90px;
+  width: 90px;
+  background-color: green;
+  border-radius: 50%;
+  margin-top: -20px;
+}
+.navbar-nav .nav-item > a{
+  z-index: 12;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+.navbar-nav .nav-item > .nav-link {
+  color: #fff;
+}
+.navbar-nav .nav-item :active {
+  color: #fff;
+  background-color: #9CDAAA;
+}
+.aboutImg img{
+  width: 100%;
+}
+.about-Info h2{
+  font-size: 40px;
+}
+.about-Info p{
+  font-size: 20px;
+  font-style: "roboto", sans-serif;
+}
+.Story{
+  margin-top: 30px;
+}
+.StoryDesc{
+  margin-top: 30px;
+
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+    color: #58595a;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    margin: 30px auto;
+    font-size: 18px;
+    color: #85878c;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .thumbnail {
+    padding: 0;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: none;
+    transition: 0.15s ease-in-out;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.tz-gallery .thumbnail:hover {
+    transform: translateY(-10px) scale(1.02);
+}
+
+.tz-gallery .lightbox img {
+    border-radius: 4px 4px 0 0;
+    height: 300px;
+    width: 100%;
+}
+
+.tz-gallery .caption{
+    padding: 26px 30px;
+    text-align: center;
+}
+
+.tz-gallery .caption h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.tz-gallery .caption p {
+    font-size: 12px;
+    color: #7b7d7d;
+    margin: 0;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+.thumbnail img{
+  height: 200px;
+}
+img { max-width:100%; }
+
+a {
+    -webkit-transition: all 150ms ease;
+	-moz-transition: all 150ms ease;
+	-ms-transition: all 150ms ease;
+	-o-transition: all 150ms ease;
+	transition: all 150ms ease;
+	}
+
+a:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50); /* IE7 */
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+.thumbnails li> .fff .caption {
+    background:#fff !important;
+    padding:10px
+}
+.page-header {
+    background: #f9f9f9;
+    margin: -30px -40px 40px;
+    padding: 20px 40px;
+    border-top: 4px solid #ccc;
+    color: #999;
+    text-transform: uppercase;
+}
+
+.page-header h3 {
+    line-height: 0.88rem;
+    color: #000;
+}
+
+ul.thumbnails {
+    margin-bottom: 0px;
+}
+
+.caption h4 {
+    color: #444;
+}
+
+.caption p {
+    color: #999;
+}
+.control-box {
+    text-align: right;
+    width: 100%;
+}
+.carousel-control{
+    background: #666;
+    border: 0px;
+    border-radius: 0px;
+    display: inline-block;
+    font-size: 34px;
+    font-weight: 200;
+    line-height: 18px;
+    opacity: 0.5;
+    padding: 4px 10px 0px;
+    position: static;
+    height: 30px;
+    width: 15px;
+}
+
+@media (max-width: 767px) {
+    .page-header, .control-box {
+        text-align: center;
+    }
+}
+@media (max-width: 479px) {
+    .caption {
+        word-break: break-all;
+    }
+}
+li { list-style-type:none;}
+::selection { background: #ff5e99; color: #FFFFFF; text-shadow: 0; }
+::-moz-selection { background: #ff5e99; color: #FFFFFF; }
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+h1,h2,h3,h4,h5{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 100%;
+}
+
+
+.img1 img {
+  height: 500px;
+}
+
+.img1 {
+  float: right;
+}
+#imgstate1 {
+  font-family:  cursive;
+  font-size: 15px;
+  color: #111110;
+
+}
+#readmore {
+  font-family:  cursive;
+  font-size: 15px;
+  color: #111110;
+
+}
+.more{
+  display: none;
+}
+.imgstate2 {
+  margin-right: 100px;
+  font-family:  cursive;
+  font-size: 15px;
+  color: #111110;
+}
+.img2 {
+  margin-left: 50px;
+}
+.img2 img {
+  height: 400px;
+}
+.img3 img {
+  height: 400px;
+}
+.imgstate3 {
+  font-family:  cursive;
+  margin-top: 40px;
+  font-size: 15px;
+  color: #111110;
+}
+
+.img4 img {
+  height: 400px;
+  width: 400px;
+}
+.imgstate4 {
+  font-family:  cursive;
+  margin-top: 40px;
+  font-size: 15px;
+  color: #111110;
+}
+#faith {
+  font-family:  cursive;
+  margin-top: 40px;
+  font-size: 15px;
+  color: #111110;
+}
+.aboutfaith {
+  display: none;
+}
+#wambui {
+  font-family:  cursive;
+  margin-top: 40px;
+  font-size: 15px;
+  color: #111110;
+}
+#patricia {
+  font-family:  cursive;
+  margin-top: 40px;
+  font-size: 15px;
+  color: #111110;
+}
+.vaishali {
+  font-family:  cursive;
+  margin-top: 40px;
+  font-size: 15px;
+  color: #111110;
+  text-align: center;
+}
+#btn5 {
+  font-family:  cursive;
+  font-size: 15px;
+  color: #111110;
+}
+#imgstate5 {
+  display: none;
+}
+.event{
+  margin-bottom: 40px;
+}
+.card img{
+  height: 300px;
+}
+.top-img{
+  height: 130px;
+  width: 130px;
+}
+#omondi{
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+.img-wrap{
+  height: 200px;
+  border: 5px;
+}
